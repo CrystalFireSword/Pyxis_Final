@@ -4,7 +4,7 @@ __An assistant application for the visually challenged__
 This project aims to build a software that can help the partially visually challenged people to navigate their surroundings.
 This is a simple, basic version of the application.
 
-# How to run the program on your local device?
+__How to run the program on your local device?__
 
 1. Download the code files in the given repository as a zip file.
 2. Install the requirements from requirements.txt. Note that there are multiple additional modules in requirements.txt that might not be required for the working of the application in its present state, but will come handy with future updates.
@@ -13,4 +13,6 @@ This is a simple, basic version of the application.
 
 Feel free to customise the code to align with your set of requirements!
 
-Note: The time taken to generate a reply can be high as while running due to the huge size of llama models even after quantisation.
+Note:
+* The time taken to generate a reply can be high as while running due to the huge size of llama models even after quantisation.
+* The print statements written are for manual verification to check whether any given step has taken place to simplify debugging.
