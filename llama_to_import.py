@@ -7,7 +7,9 @@ import torch
 import transformers
 
 
-model_id = r"C:\Users\aksha\final_trial_directory\env\Lib\site-packages\transformers\models\llama\llama-2-7b-chat-hf"
+model_id = '' #enter the path to your llama model here
+# it generally looks like this: r"C:\Users\<your user name>\<directory name of virtual environment>\env\Lib\site-packages\transformers\models\llama\llama-2-7b-chat-hf"
+
 device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
 bnb_config = transformers.BitsAndBytesConfig(
     load_in_4bit = True,
