@@ -21,9 +21,4 @@ def speak(text):
                 speak('Sorry, but I could not detect anything... Is there anything else that I can help you with?')
             break
             
-##    
-##a = 10
-##while a!='exit':
-##    a = listen()
-
 
