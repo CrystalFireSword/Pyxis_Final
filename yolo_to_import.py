@@ -19,12 +19,6 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "teddy bear", "hair drier", "toothbrush"
               ]
 
-# counter
-
-#capture = cv2.VideoCapture('Trafficvideo.mp4')
-# capture = cv2.VideoCapture(0)
-
-
 def detect():
     totalresults = []
     capture = cv2.VideoCapture(0)
@@ -73,15 +67,4 @@ def detect():
 
     
 print('yolo file done')
-# wordnet - english
-# similarity score 
-# QA based LLMs
-# LLM based chatbot with RAG - augmented generation
-# kafka streaming
-# bigdata streaming concepts
-# vector store
-# prompting 
-# question to querying
-# langchain framework
-# llama model
 
