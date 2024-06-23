@@ -13,4 +13,4 @@ This is a simple, basic version of the application.
 
 Feel free to customise the code to align with your set of requirements!
 
-
+Note: The time taken to generate a reply can be high as while running due to the huge size of llama models even after quantisation.
